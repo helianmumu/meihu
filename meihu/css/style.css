@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "iconfont";
+  src: url(../fonts/iconfont.svg);
+  src: url(../fonts/iconfont.woff);
+  src: url(../fonts/iconfont.ttf);
+  src: url(../fonts/iconfont.eot); }
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #F2F2F2; }
+
+.header {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  position: relative;
+  display: -webkit-flex;
+  justify-content: center;
+  border-bottom: 1px solid #ccc; }
+  .header .left {
+    position: absolute;
+    left: 0.1rem;
+    top: 0;
+    color: #676767;
+    font-size: 0.12rem; }
+    .header .left i {
+      font-size: 0.2rem; }
+  .header h3 {
+    font-weight: normal;
+    font-size: 0.16rem;
+    color: #343434; }
+  .header .right {
+    position: absolute;
+    right: 0.1rem;
+    top: 0;
+    color: #676767;
+    font-size: 0.12rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  .content .banner-container .banner-wrapper .banner-slide {
+    width: 100%;
+    height: 1.125rem; }
+    .content .banner-container .banner-wrapper .banner-slide img {
+      width: 100%;
+      height: 100%; }
+  .content .standard {
+    position: absolute;
+    top: 1.125rem;
+    bottom: 0;
+    left: 0;
+    height: 1rem; }
+    .content .standard .wrapper-content {
+      width: 200%; }
+      .content .standard .wrapper-content .scroll-content {
+        background: #ffffff;
+        width: 100%; }
+        .content .standard .wrapper-content .scroll-content a {
+          float: left;
+          text-align: center;
+          width: 10%;
+          height: 1rem; }
+          .content .standard .wrapper-content .scroll-content a dl {
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            box-sizing: border-box; }
+            .content .standard .wrapper-content .scroll-content a dl dt {
+              width: 0.4rem;
+              height: 0.4rem;
+              line-height: 0.4rem;
+              text-align: center;
+              border-radius: 50%;
+              background: #2ecc40;
+              margin: 0 auto; }
+              .content .standard .wrapper-content .scroll-content a dl dt i {
+                color: #ffffff;
+                font-size: 0.2rem; }
+            .content .standard .wrapper-content .scroll-content a dl dd {
+              font-size: 0.12rem;
+              color: #666666;
+              margin-top: 0.1rem; }
+    .content .standard .arrowhead {
+      display: inline-block;
+      width: 0.2rem;
+      height: 1rem;
+      text-align: center;
+      position: fixed;
+      right: 0;
+      top: 1.125rem;
+      background: rgba(225, 225, 225, 0.7);
+      box-shadow: -2px 0 10px #666666; }
+      .content .standard .arrowhead i {
+        margin-top: 0.33rem;
+        font-size: 0.4rem;
+        color: #999999; }
+  .content .advertisement {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    background: #ffffff;
+    display: -webkit-flex; }
+    .content .advertisement .adver-left {
+      -webkit-flex: 1;
+      width: 50%; }
+      .content .advertisement .adver-left .pic {
+        width: 100%;
+        height: 1.82rem;
+        position: relative; }
+        .content .advertisement .adver-left .pic img {
+          width: 100%;
+          height: 100%; }
+        .content .advertisement .adver-left .pic .chirismus {
+          position: absolute;
+          top: 0.08rem;
+          right: 0.1rem;
+          font-size: 0.18rem;
+          color: #ffffff; }
+    .content .advertisement .adver-right {
+      -webkit-flex: 1;
+      width: 50%;
+      margin-left: 0.1rem; }
+      .content .advertisement .adver-right .pic {
+        width: 100%;
+        height: 0.86rem;
+        position: relative; }
+        .content .advertisement .adver-right .pic img {
+          width: 100%;
+          height: 100%; }
+        .content .advertisement .adver-right .pic .hairdressing {
+          position: absolute;
+          top: 0.08rem;
+          right: 0.1rem;
+          font-size: 0.18rem;
+          color: #ffffff; }
+        .content .advertisement .adver-right .pic .body-building {
+          position: absolute;
+          top: 0.08rem;
+          left: 0.1rem;
+          font-size: 0.18rem;
+          color: #ffffff; }
+      .content .advertisement .adver-right .pic:nth-child(even) {
+        margin-top: 0.1rem; }
+  .content .recommend-title {
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    padding-top: 0.3rem;
+    box-sizing: border-box; }
+    .content .recommend-title .line {
+      width: 80%;
+      height: 0;
+      border: 0.5px solid #666666;
+      margin: 0 auto; }
+    .content .recommend-title .title-content {
+      width: 40%;
+      margin: -0.1rem 30%;
+      height: 0.2rem;
+      line-height: 0.2rem;
+      background: #F2F2F2;
+      color: #666666;
+      font-size: 0.14rem; }
+  .content .recommend-container {
+    width: 100%;
+    background: #ffffff; }
+    .content .recommend-container a {
+      display: inline-block;
+      width: 100%;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      box-sizing: border-box;
+      border-bottom: 1px solid #cccccc; }
+      .content .recommend-container a dl {
+        display: -webkit-flex;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        box-sizing: border-box; }
+        .content .recommend-container a dl dt {
+          -webkit-flex: 1;
+          overflow: hidden; }
+          .content .recommend-container a dl dt img {
+            width: 0.7rem;
+            height: 0.7rem;
+            border-radius: 50%; }
+        .content .recommend-container a dl dd {
+          -webkit-flex: 3;
+          margin-left: 0.1rem;
+          line-height: 0.2rem;
+          color: #676767; }
+          .content .recommend-container a dl dd .sec-line {
+            margin-top: 0.12rem;
+            position: relative; }
+            .content .recommend-container a dl dd .sec-line .price {
+              font-size: 0.14rem;
+              color: #FD7898; }
+            .content .recommend-container a dl dd .sec-line .num {
+              color: #cccccc;
+              position: absolute;
+              right: 0; }
+
+@media all and (min-width: 960px) {
+  .banner-slide {
+    height: 2.25rem; } }
+.footer {
+  height: 0.5rem;
+  text-align: center;
+  border-top: 1px solid #ccc; }
+  .footer .footer-nav {
+    display: -webkit-flex; }
+    .footer .footer-nav a {
+      -webkit-flex: 1;
+      color: #676767;
+      padding-top: 0.04rem;
+      box-sizing: border-box; }
+      .footer .footer-nav a dt {
+        font-size: 0.2rem; }
+      .footer .footer-nav a dd {
+        font-size: 0.12rem;
+        margin-top: 0.04rem; }
+    .footer .footer-nav a.on {
+      color: #FC7797; }
+
+/*# sourceMappingURL=style.css.map */
